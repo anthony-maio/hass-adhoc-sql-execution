@@ -1,0 +1,25 @@
+execute:
+  name: Execute SQL Query
+  description: Execute custom SQL queries on a specified MariaDB/MySQL database.
+  fields:
+    host:
+      description: "The hostname or IP address of the MariaDB server."
+      example: "192.168.1.100"
+    username:
+      description: "The username for the MariaDB database."
+      example: "your_user"
+    password:
+      description: "The password for the MariaDB database."
+      example: "your_password"
+    database:
+      description: "The name of the database where the query will be executed."
+      example: "home_assistant"
+    action1:
+      description: "The first SQL query to execute."
+      example: "UPDATE sensors SET state='on' WHERE entity_id='sensor.living_room_temperature';"
+    action2:
+      description: "An optional second SQL query to execute."
+      example: "INSERT INTO logs (event) VALUES ('Sensor updated');"
+    action3:
+      description: "An optional third SQL query to execute."
+      example: "DELETE FROM logs WHERE event='Sensor updated';"
