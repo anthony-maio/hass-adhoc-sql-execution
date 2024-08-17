@@ -1,6 +1,6 @@
 # MariaDB/MySQL AdHoc SQL Execution
 
-### Note: MariaDB is a fork of MySQL that can work as a drop-in replacement for most MySQL use cases.  I will use the terms interchangably, but the component uses mariadb primarily because that's the open source one these days.  I think.  Some corp bought MySQL and AWS uses MariaDB so I'm going with that.
+Note: MariaDB is a fork of MySQL that can work as a drop-in replacement for most MySQL use cases.  I will use the terms interchangably, but the component uses mariadb as its name (domain in hass) - you can use it with either mysql or mariadb instances.
 
 MariaDB Execute is a custom component for Home Assistant that allows you to execute adhoc SQL queries against a MariaDB/MySQL database from within Home Assistant. This component is designed to be flexible, allowing you to specify database credentials with each service call, enabling the use of multiple databases.
 **NOTE** Do not use this unless you know what you are doing with it. It is an extremely powerful component making queries to any MySQL/MariaDB you have credentials to including your Home Assistant DB - and you can really eff those things up if you don't know what you're doing.
