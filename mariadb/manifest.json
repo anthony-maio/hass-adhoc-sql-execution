@@ -2,11 +2,11 @@
     "domain": "mariadb",
     "name": "MariaDB/MySQL AdHoc SQL Execution",
     "documentation": "https://github.com/anthonym21/hass-adhoc-sql-execution",
-    "requirements": ["aiomysql==0.0.21"],
+    "requirements": ["aiomysql==0.20.0"],
     "dependencies": [],
     "iot_class": "local_polling",
     "codeowners": [
         "@anthonym21"
     ],
-    "version": "1.1.0"
+    "version": "1.1.2"
 }
